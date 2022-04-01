@@ -1,6 +1,11 @@
 import numpy as np
 from scipy import sparse
 
+"""
+The code in this file has been adapted from the Julia implementation of a similar problem, 
+from https://github.com/Qaintum, 
+courtesy of Univ- Prof. Dr. Christian Mendl : https://www5.in.tum.de/~quanTUMcomputing/
+"""
 
 def adjacency_hypercube_lattice(length, ndim):
     """
